@@ -20,7 +20,11 @@ const Div = styled.div`
     width: 90%;
     margin: 0 auto;
 
-    @media ${devices.mobileL}{
+    @media ${devices.mobileS}{
+      flex-direction: column-reverse;
+    }
+
+    @media ${devices.tablet}{
       flex-direction: column-reverse;
     }
 

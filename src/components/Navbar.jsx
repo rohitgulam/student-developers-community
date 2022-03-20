@@ -34,7 +34,7 @@ const Nav = styled.nav`
     font-size: 1.2rem;
     font-weight: 500;
 
-    @media ${devices.mobileL}{
+    @media ${devices.mobileS}{
         padding: 0 10px;
         font-size: 1.1rem;
         font-weight: 400;
@@ -66,7 +66,7 @@ const Nav = styled.nav`
                     color: black;
                 }
 
-                @media ${devices.mobileL}{
+                @media ${devices.mobileS}{
                     :hover{
                         background: unset;
                         color: unset;

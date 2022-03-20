@@ -37,7 +37,7 @@ const Div = styled.div`
       margin: 10px 0;
     }
 
-    @media ${devices.mobileL}{
+    @media ${devices.mobileS}{
       width: 96%;
       margin: 0 auto;
 
@@ -53,6 +53,25 @@ const Div = styled.div`
 
       ul{
         font-size: 1rem;
+      }
+  }
+
+    @media ${devices.tablet}{
+      width: 96%;
+      margin: 0 auto;
+
+      h1{
+        margin: 0 0 10px 0;
+        font-size: 1.5rem;
+      }
+      
+      p{
+        font-size: 1.1rem;
+        
+      }
+
+      ul{
+        font-size: 1.1rem;
       }
   }
 
@@ -73,11 +92,20 @@ const BtnDiv = styled.div`
     margin: 10px 50px 10px 0;
   }
 
-  @media ${devices.mobileL}{
+  @media ${devices.mobileS}{
     max-width: unset;
     
     a{
       margin: 5px 10px 5px 0;
+    }
+
+  }
+
+  @media ${devices.tablet}{
+    max-width: unset;
+    
+    a{
+      margin: 5px 15px 5px 0;
     }
 
   }

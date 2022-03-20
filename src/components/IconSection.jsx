@@ -39,7 +39,6 @@ const Div = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    }
 
     h2{
         text-align: center;
@@ -51,8 +50,14 @@ const Items = styled.div`
     align-items: center;
     margin: 10px 20px;
 
-    @media ${devices.mobileL}{
+    @media ${devices.mobileS}{
         flex-direction: column;
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    @media ${devices.laptop}{
+        flex-direction: row;
         width: 90%;
         margin: 10px auto;
     }
@@ -78,9 +83,17 @@ const Items = styled.div`
             text-align: center;
         }
 
-        @media ${devices.mobileL}{
-            width: 350px;
+        @media ${devices.mobileS}{
+            width: 300px;
             margin: 20px 0;
+          }
+        @media ${devices.tablet}{
+            width: 400px;
+            margin: 30px 0;
+          }
+        @media ${devices.tablet}{
+            width: 300px;
+            margin: 30px 0;
           }
     }
 `;

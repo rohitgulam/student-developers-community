@@ -24,7 +24,7 @@ const Btn = styled(Link)`
       font-size: 1.5rem;
     }
 
-    @media ${devices.mobileL}{
+    @media ${devices.mobileS}{
       padding: 12px 26px;
     }
 `;
