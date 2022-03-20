@@ -17,8 +17,6 @@ function Hero() {
 
 const Div = styled.div`
     display: flex;
-    width: 90%;
-    margin: 0 auto;
 
     @media ${devices.mobileS}{
       flex-direction: column-reverse;
@@ -28,6 +26,12 @@ const Div = styled.div`
       flex-direction: column-reverse;
     }
 
+    @media ${devices.laptop}{
+      flex-direction: row;
+      align-items: center;
+      width: 90%;
+      margin: 0 auto;
+    }
 `;
 
 

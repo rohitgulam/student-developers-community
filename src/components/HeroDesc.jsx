@@ -27,16 +27,6 @@ function HeroDesc() {
 }
 
 const Div = styled.div`
-    width: 60%;
-    
-    h1{
-      margin: 60px 0;
-    }
-
-    p{
-      margin: 10px 0;
-    }
-
     @media ${devices.mobileS}{
       width: 96%;
       margin: 0 auto;
@@ -54,7 +44,7 @@ const Div = styled.div`
       ul{
         font-size: 1rem;
       }
-  }
+    }
 
     @media ${devices.tablet}{
       width: 96%;
@@ -73,7 +63,20 @@ const Div = styled.div`
       ul{
         font-size: 1.1rem;
       }
-  }
+    }
+
+    @media ${devices.laptop}{
+        width: 60%;
+        h1{
+          margin: 60px 0;
+        }
+
+        p{
+          margin: 10px 0;
+        }
+    }
+
+    
 
 
 

@@ -23,6 +23,13 @@ const Div = styled.div`
       width: 96%;
       margin-top: unset;
     }
+
+    @media ${devices.laptop}{
+      width: 40%;
+      margin-top: 70px;
+    }
+
+
 `;  
 
 
