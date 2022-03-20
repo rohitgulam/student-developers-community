@@ -15,7 +15,7 @@ const Btn = styled(Link)`
     text-decoration: none;
     color: black;
     padding: 15px 30px;
-    background: #a8dadc; 
+    background: #6dafa7; 
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
