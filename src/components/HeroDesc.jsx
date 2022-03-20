@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Button from './Button';
+import { devices } from './devices';
 
 function HeroDesc() {
   return (
@@ -26,13 +27,34 @@ function HeroDesc() {
 }
 
 const Div = styled.div`
-    width: 60%;h1{
+    width: 60%;
+    
+    h1{
       margin: 60px 0;
     }
 
     p{
       margin: 10px 0;
     }
+
+    @media ${devices.mobileL}{
+      width: 96%;
+      margin: 0 auto;
+
+      h1{
+        margin: 0 0 10px 0;
+        font-size: 1.4rem;
+      }
+      
+      p{
+        font-size: 1rem;
+        
+      }
+
+      ul{
+        font-size: 1rem;
+      }
+  }
 
 
 
@@ -49,6 +71,15 @@ const BtnDiv = styled.div`
 
   a{
     margin: 10px 50px 10px 0;
+  }
+
+  @media ${devices.mobileL}{
+    max-width: unset;
+    
+    a{
+      margin: 5px 10px 5px 0;
+    }
+
   }
 `;
 

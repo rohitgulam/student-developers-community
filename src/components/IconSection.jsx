@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import {IoIosPeople} from 'react-icons/io';
 import {FaHandshake} from 'react-icons/fa';
 import {VscDebugConsole} from 'react-icons/vsc';
+import {devices} from './devices';
 
 function IconSection() {
   return (
@@ -50,6 +51,12 @@ const Items = styled.div`
     align-items: center;
     margin: 10px 20px;
 
+    @media ${devices.mobileL}{
+        flex-direction: column;
+        width: 90%;
+        margin: 10px auto;
+    }
+
     div{
         // background: #999;
         width: 400px;
@@ -71,6 +78,10 @@ const Items = styled.div`
             text-align: center;
         }
 
+        @media ${devices.mobileL}{
+            width: 350px;
+            margin: 20px 0;
+          }
     }
 `;
 

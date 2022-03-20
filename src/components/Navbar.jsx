@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
 import Button from './Button';
+import { devices } from './devices';
 
 function Navbar() {
   return (
@@ -14,7 +15,7 @@ function Navbar() {
                 <NavLink to='/'>About</NavLink>
             </li>
             <li>
-                <NavLink to='/'>Why Join?</NavLink>
+                <NavLink to='/'>Benefits</NavLink>
             </li>
         </ul>
         <Button text='Join the community' />
@@ -32,6 +33,12 @@ const Nav = styled.nav`
     justify-content: space-between;
     font-size: 1.2rem;
     font-weight: 500;
+
+    @media ${devices.mobileL}{
+        padding: 0 10px;
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
 
     a{
         color: black;
@@ -54,10 +61,17 @@ const Nav = styled.nav`
                 border-radius: 4px;
                 transition: all 180ms ease-in-out; 
         
+                :hover{
+                    background: #eef0f1;
+                    color: black;
+                }
+
+                @media ${devices.mobileL}{
                     :hover{
-                        background: #eef0f1;
-                        color: black;
+                        background: unset;
+                        color: unset;
                     }
+                }
             }
         }
     }

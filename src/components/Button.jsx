@@ -2,8 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 import { BsArrowRight } from 'react-icons/bs';
-import { AiOutlineSwapRight, AiOutlineRight } from 'react-icons/ai';
-import { BiChevronRight } from 'react-icons/bi';
+import { devices } from './devices';
 
 function Button({text}) {
   return (
@@ -23,6 +22,10 @@ const Btn = styled(Link)`
     svg{
       padding-left: 5px;
       font-size: 1.5rem;
+    }
+
+    @media ${devices.mobileL}{
+      padding: 12px 26px;
     }
 `;
 
