@@ -5,15 +5,20 @@ import HeroImg from './HeroImg';
 
 function Hero() {
   return (
-    <Div>
-        <HeroDesc/>
-        <HeroImg/>
-    </Div>
+    <div style={{backgroundColor: "#f8edeb"}} >
+      <Div>
+          <HeroDesc/>
+          <HeroImg/>
+      </Div>
+    </div>
   )
 }
 
 const Div = styled.div`
     display: flex;
+    width: 90%;
+    margin: 0 auto;
+    
 `;
 
 

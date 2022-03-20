@@ -5,9 +5,9 @@ import { BsArrowRight } from 'react-icons/bs';
 import { AiOutlineSwapRight, AiOutlineRight } from 'react-icons/ai';
 import { BiChevronRight } from 'react-icons/bi';
 
-function Button() {
+function Button({text}) {
   return (
-    <Btn to='/'>Join The Community <BsArrowRight/> </Btn>
+    <Btn to='/'>{text}<BsArrowRight/> </Btn>
   )
 }
 
@@ -16,7 +16,7 @@ const Btn = styled(Link)`
     color: black;
     padding: 15px 30px;
     background: #a8dadc; 
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: space-between;
 

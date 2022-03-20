@@ -17,7 +17,7 @@ function Navbar() {
                 <NavLink to='/'>Why Join?</NavLink>
             </li>
         </ul>
-        <Button/>
+        <Button text='Join the community' />
     </Nav>
   )
 }
@@ -25,7 +25,7 @@ function Navbar() {
 const Nav = styled.nav`
     height: 8vh;
     min-height: 80px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d9dbde;
     padding: 0 60px;
     display: flex;
     align-items: center;
