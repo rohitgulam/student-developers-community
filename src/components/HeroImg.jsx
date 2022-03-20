@@ -12,6 +12,7 @@ function HeroImg() {
 
 const Div = styled.div`
     width: 40%;
+    margin-top:70px;
 `;
 
 
