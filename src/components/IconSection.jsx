@@ -91,9 +91,9 @@ const Items = styled.div`
             width: 400px;
             margin: 30px 0;
           }
-        @media ${devices.tablet}{
-            width: 300px;
-            margin: 30px 0;
+        @media ${devices.laptop}{
+            width: 400px;
+            margin: 30px 30px;
           }
     }
 `;
