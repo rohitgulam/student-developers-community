@@ -67,10 +67,10 @@ const Nav = styled.nav`
                 }
 
                 @media ${devices.mobileS}{
-                    :hover{
+                    /* :hover{
                         background: unset;
                         color: unset;
-                    }
+                    } */
                 }
             }
         }
