@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import IconSection from '../components/IconSection';
 import Benefits from '../components/Benefits';
+import Footer from '../components/Footer';
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         <Hero/>
         <IconSection/>
         <Benefits/>
+        <Footer/>
     </div>
   )
 }
