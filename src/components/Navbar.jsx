@@ -3,12 +3,13 @@ import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
 import Button from './Button';
 import { devices } from './devices';
+import logo from '../img/logo.png';
 
 function Navbar() {
   return (
     <Nav>
         <NavLink to='/' className="site-title">
-            Student Developers Community
+            <img src={logo} alt="Student Developer Community Logo" width="140px" height="80px"/>
         </NavLink> 
         <ul>
             <li>
