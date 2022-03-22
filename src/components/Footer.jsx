@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
-import logo from '../img/logo.png';
+import logo from '../img/logo-light.png';
 import Button from './Button';
 
 function Footer() {
