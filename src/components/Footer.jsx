@@ -53,6 +53,7 @@ const LFooter = styled.div`
         font-size: 0.8rem;
         text-align: center;
         width: 100%;
+        font-weight: 200;
     }
 `;
 

@@ -34,6 +34,9 @@ const Div = styled.div`
     }
 `;
 
+// #f4c2c9
+
+// #f8edeb
 
 
 export default Hero

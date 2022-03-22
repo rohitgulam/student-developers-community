@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Button from './Button';
+import SButton from './SButton';
 import { devices } from './devices';
 
 function HeroDesc() {
@@ -20,7 +21,7 @@ function HeroDesc() {
       <BtnDiv>
         <p>You're in the right place. Here's what you can do next:</p>
         <Button text='Join Now'/>
-        <Button text='Learn More'/>
+        <SButton text='Learn More'/>
       </BtnDiv>
     </Div>
   )
