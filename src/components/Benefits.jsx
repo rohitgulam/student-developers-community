@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import {devices} from './devices';
 
 function Benefits() {
   return (
@@ -107,6 +108,73 @@ const GridContainer = styled.div`
         }
 
     }
+
+    @media ${devices.mobileS}{
+        width: 96%;
+        margin: 20px auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+
+        h5{
+            font-size: 2rem;
+            padding-bottom: 5px;
+        }
+
+        h4{
+            font-size: 1.1rem;
+            padding-bottom: 5px;
+        }
+
+        }
+
+        div{
+            background: #eef0f1;
+            border-radius: 6px;
+            height: 250px;
+            padding: 10px;
+
+            :hover{
+                box-shadow: unset;
+            }
+        
+
+            p{
+                line-height: 1.2rem;
+                letter-spacing: 1px;
+            }
+
+        }
+
+        
+    @media ${devices.tablet}{
+        width: 94%;
+        margin: 30px auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 15px;
+        text-align: center;
+
+        div{
+            :hover{
+                box-shadow: unset;
+            }
+        }
+    }
+    @media ${devices.laptop}{
+        width: 50%;
+        margin: 30px auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        text-align: center;
+
+        div{
+        :hover{
+            box-shadow: 10px 10px 20px rgba(199, 197, 197, 0.8);
+        }
+    }
+    }
+
 `;
 
 export default Benefits

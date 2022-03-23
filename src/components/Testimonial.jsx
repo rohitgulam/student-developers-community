@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import {FaQuoteLeft} from 'react-icons/fa';
-import Photo from '../img/img.jpg'
+import Photo from '../img/img.jpg';
+import {devices} from "./devices"
 
 function Testimonial() {
   return (
@@ -41,7 +42,8 @@ const Div = styled.div`
     align-items: center;
 
     h2{
-      margin: 20px 0;
+      margin: 20px 1px;
+      text-align: center;
     }
 `;
 
@@ -88,6 +90,145 @@ const Grid = styled.div`
       }
     }
   }
+
+  @media ${devices.mobileS}{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0;
+
+    div{
+    width: 300px;
+    margin: 5px 0px;
+
+    p{
+      color: #495057;
+      font-style: italic;
+      font-weight: lighter;
+      text-align: center;
+      font-size: 0.9rem;
+
+      svg{
+        color: #6dafa7;
+        
+      }
+    }
+
+    .photo-name{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+    }
+
+    .name{
+      font-style: italic;
+      
+      span{
+        font-style: normal;
+        color: black;
+      }
+    }
+  }
+
+
+  }
+  @media ${devices.tablet}{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+
+    div{
+    width: 260px;
+    margin: 10px 5px;
+
+    p{
+      color: #495057;
+      font-style: italic;
+      font-weight: lighter;
+      text-align: center;
+      font-size: 0.9rem;
+
+      svg{
+        color: #6dafa7;
+        
+      }
+    }
+
+    .photo-name{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+    }
+
+    .name{
+      font-style: italic;
+      
+      span{
+        font-style: normal;
+        color: black;
+      }
+    }
+  }
+  }
+  @media ${devices.laptop}{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+
+    div{
+      width: 400px;
+      margin: 10px 20px;
+
+      p{
+        color: #495057;
+        font-style: italic;
+        font-weight: lighter;
+        text-align: center;
+
+        svg{
+          color: #6dafa7;
+          
+        }
+      }
+
+      .photo-name{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img{
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+        }
+      }
+
+      .name{
+        font-style: italic;
+        
+        span{
+          font-style: normal;
+          color: black;
+        }
+      }
+    }
+  }
+
+
 `;
 
 export default Testimonial

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
 import logo from '../img/logo-light.png';
 import Button from './Button';
+import {devices} from './devices'
 
 function Footer() {
   return (
@@ -11,7 +12,7 @@ function Footer() {
             <NavLink to='/' className="site-title">
                 <img src={logo} alt="Student Developer Community Logo" width="105px" height="60px"/>
             </NavLink>
-            <Button text="Join the community" />
+            <Button className="btn" text="Join the community" />
         </div>
         <hr />
         
@@ -43,6 +44,28 @@ const FooterDiv = styled.footer`
         width: 80%;
         border: 0.8 solid #d9dbde;
         margin: 10px 0;
+    }
+
+    @media ${devices.mobileS}{
+
+        div{
+            width: 94%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            .btn{
+                display: none;
+            }
+        }
+
+    }
+    @media ${devices.tablet}{
+        
+    }
+    @media ${devices.laptop}{
+        
     }
 `;
 
