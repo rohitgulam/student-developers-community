@@ -20,8 +20,8 @@ function HeroDesc() {
       </ul>
       <BtnDiv>
         <p>You're in the right place. Here's what you can do next:</p>
-        <Button text='Join Now'/>
-        <SButton text='Learn More'/>
+        <Button link='https://discord.gg/Q8Ee6XbFzE' text='Join Now'/>
+        <SButton link='' text='Learn More'/>
       </BtnDiv>
     </Div>
   )

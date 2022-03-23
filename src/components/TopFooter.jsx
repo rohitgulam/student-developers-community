@@ -9,7 +9,7 @@ function TopFooter() {
       <h3>👋</h3>
       <h2>Join a community of student developers.</h2>
       <p>As a student, books and classes aren't enough. Student Developers need more than books and classes. <br /> Our community is where you can connect with other student developers and learn from their expereinces and get help when you need it the most</p>
-      <SButton text='Join the community'/>
+      <SButton link='https://discord.gg/Q8Ee6XbFzE' text='Join the community'/>
       <p className="small">Entry will be closed once we reach 100 members 😉 </p>
     </Div>
   )

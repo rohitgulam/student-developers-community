@@ -12,7 +12,7 @@ function Footer() {
             <NavLink to='/' className="site-title">
                 <img src={logo} alt="Student Developer Community Logo" width="105px" height="60px"/>
             </NavLink>
-            <Button className="btn" text="Join the community" />
+            <Button link='https://discord.gg/Q8Ee6XbFzE' className="btn" text="Join the community" />
         </div>
         <hr />
         

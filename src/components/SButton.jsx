@@ -1,16 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
-import {Link} from 'react-router-dom';
 import { BsArrowRight } from 'react-icons/bs';
 import { devices } from './devices';
 
-function SButton({text}) {
+function SButton({ link, text}) {
   return (
-    <Btn to='/'>{text}<BsArrowRight/> </Btn>
+    <Btn href={link} >{text}<BsArrowRight/> </Btn>
   )
 }
 
-const Btn = styled(Link)`
+const Btn = styled.a`
     text-decoration: none;
     color: black;
     padding: 15px 30px;
