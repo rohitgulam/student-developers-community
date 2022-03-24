@@ -1,12 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+import { devices } from './devices';
 
 function About() {
   return (
     <Div>
         <h2>About</h2>
         <p>Students Developers Community is a community for student developers by student developers. It's main goal is to help students when they're learning to code and forge them to be great developers according to industry standards </p>
-        <p>What are you waiting for? <a href="https://discord.gg/Q8Ee6XbFzE">Join the community now</a></p>
+        <p>What are you waiting for? <br /> <a href="https://discord.gg/Q8Ee6XbFzE">Join the community now</a></p>
     </Div>
   )
 }
@@ -19,6 +20,8 @@ const Div = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    
 
     p{
         width: 700px;
@@ -60,6 +63,13 @@ const Div = styled.div`
 
     a:hover:after{
         transform: translateX(0);
+    }
+
+    @media ${devices.mobileS} {
+        width: 94%;
+        p{
+            width: unset;
+        }
     }
 `;
 
