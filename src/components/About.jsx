@@ -25,6 +25,7 @@ const Div = styled.div`
 
     p{
         width: 700px;
+        margin: 6px 0;
     }
 
     a{
@@ -69,6 +70,12 @@ const Div = styled.div`
         width: 94%;
         p{
             width: unset;
+        }
+    }
+
+    @media ${devices.mobileS} {
+        p{
+            width: 800px;
         }
     }
 `;
