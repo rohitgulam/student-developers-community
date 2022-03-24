@@ -73,7 +73,7 @@ const Div = styled.div`
         }
     }
 
-    @media ${devices.mobileS} {
+    @media ${devices.tablet} {
         p{
             width: 800px;
         }
