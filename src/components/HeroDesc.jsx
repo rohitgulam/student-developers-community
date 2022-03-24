@@ -21,7 +21,7 @@ function HeroDesc() {
       <BtnDiv>
         <p>You're in the right place. Here's what you can do next:</p>
         <Button link='https://discord.gg/Q8Ee6XbFzE' text='Join Now'/>
-        <SButton link='' text='Learn More'/>
+        <SButton link='#features' text='Learn More'/>
       </BtnDiv>
     </Div>
   )
