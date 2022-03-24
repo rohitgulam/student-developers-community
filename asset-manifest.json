@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/student-developers-community/static/css/main.9a9650be.css",
+    "main.js": "/student-developers-community/static/js/main.159ace54.js",
+    "static/media/hero.svg": "/student-developers-community/static/media/hero.67c667bdede901007d7e797dbd6dbbc6.svg",
+    "index.html": "/student-developers-community/index.html",
+    "main.9a9650be.css.map": "/student-developers-community/static/css/main.9a9650be.css.map",
+    "main.159ace54.js.map": "/student-developers-community/static/js/main.159ace54.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a9650be.css",
+    "static/js/main.159ace54.js"
+  ]
+}
