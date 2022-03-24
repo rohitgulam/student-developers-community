@@ -10,7 +10,7 @@ import About from '../components/About';
 
 function Home() {
   return (
-    <div>
+    <div style={{ overflowX: 'hidden'}} >
         <Navbar/>
         <Hero/>
         <IconSection/>
