@@ -6,7 +6,7 @@ import {devices} from "./devices"
 
 function Testimonial() {
   return (
-    <Div>
+    <Div id='testimonials'>
         <h2>What our members are saying about the community</h2>
         <Grid>
             <div>

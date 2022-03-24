@@ -7,7 +7,7 @@ import {devices} from './devices';
 
 function IconSection() {
   return (
-    <Div>
+    <Div id='features' >
         <div>
             <h2>Features</h2>
             <Items className="items">

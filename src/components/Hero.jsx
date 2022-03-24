@@ -6,7 +6,7 @@ import { devices } from './devices';
 
 function Hero() {
   return (
-    <div style={{backgroundColor: "#f8edeb"}} >
+    <div id='home' style={{backgroundColor: "#f8edeb"}} >
       <Div>
           <HeroDesc/>
           <HeroImg/>

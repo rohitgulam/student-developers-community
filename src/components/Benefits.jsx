@@ -4,7 +4,7 @@ import {devices} from './devices';
 
 function Benefits() {
   return (
-      <Div>
+      <Div id='benefits' >
         <h2>Benefits</h2>
         <p>A few things that you would benefit if you joined this community</p>
           <GridContainer>
