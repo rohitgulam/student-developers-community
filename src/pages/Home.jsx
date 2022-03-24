@@ -6,6 +6,7 @@ import Benefits from '../components/Benefits';
 import Footer from '../components/Footer';
 import TopFooter from '../components/TopFooter';
 import Testimonial from '../components/Testimonial';
+import About from '../components/About';
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
         <Navbar/>
         <Hero/>
         <IconSection/>
+        <About/>
         <Benefits/>
         <Testimonial/>
         <TopFooter/>
