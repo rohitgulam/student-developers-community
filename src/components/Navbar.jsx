@@ -155,6 +155,7 @@ const Header = styled.header`
 
     .menu.show{
         visibility: visible;
+        overflow: hidden;
     }
 
     .menu > div{
@@ -172,6 +173,7 @@ const Header = styled.header`
 
     .menu > div.show{
         transform: scale(1);
+        overflow: hidden;
     }
 
     .menu > div > div{
