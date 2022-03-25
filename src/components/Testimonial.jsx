@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import {FaQuoteLeft} from 'react-icons/fa';
 import Photo from '../img/img.jpg';
+import Photo2 from '../img/-2.jpg';
 import {devices} from "./devices"
 
 function Testimonial() {
@@ -17,17 +18,17 @@ function Testimonial() {
               </div>
             </div>
             <div>
-              <p> <FaQuoteLeft/> I am really enjoying this community so far and have really appreciated everyone’s support and thoughtful responses to my messages!</p>
+              <p> <FaQuoteLeft/> This community has quickly become my secret weapon. I have met a lot of people who helped me improve</p>
               <div className="photo-name">
-                <img src={Photo} alt="" />
-                <p className="name">Conan Doyle <p></p> <span>Computer science student</span> </p>
+                <img src={Photo2} alt="" />
+                <p className="name">Rohit Gulam <p></p> <span>Computer science student</span> </p>
               </div>
             </div>
             <div>
-              <p> <FaQuoteLeft/> I am really enjoying this community so far and have really appreciated everyone’s support and thoughtful responses to my messages!</p>
+              <p> <FaQuoteLeft/> I really don't know what I would have done if I hadn't found a community like this. It truly is a godsend!</p>
               <div className="photo-name">
-                <img src={Photo} alt="" />
-                <p className="name">Conan Doyle <p></p> <span>Computer science student</span> </p>
+                <img src="https://avatars.githubusercontent.com/u/2663505?v=4" alt="" />
+                <p className="name">Ally Mahrez <p></p> <span>Computer Engineering Student</span> </p>
               </div>
             </div>
         </Grid>
