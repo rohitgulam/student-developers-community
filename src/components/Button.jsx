@@ -5,7 +5,7 @@ import { devices } from './devices';
 
 function Button({link, text}) {
   return (
-    <Btn href={link} >{text}<BsArrowRight/> </Btn>
+    <Btn href={link} target="_blank" >{text}<BsArrowRight/> </Btn>
   )
 }
 
